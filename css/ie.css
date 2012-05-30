@@ -1,0 +1,71 @@
+* html .png-box .lt {
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-top-left.png', sizingmethod='crop');
+	background:url(../images/none.gif);
+}
+* html .png-box .rt {
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-top-right.png', sizingmethod='crop');
+	background:url(../images/none.gif);
+}
+* html .png-box .lb {
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-bottom-left.png', sizingmethod='crop');
+	background:url(../images/none.gif);
+}
+* html .png-box .rb {
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-bottom-right.png', sizingmethod='crop');
+	background:url(../images/none.gif);
+}
+* html .png-box .t {
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-top.png', sizingmethod='scale');
+	background:url(../images/none.gif);
+}
+* html .png-box .b {
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-bottom.png', sizingmethod='scale');
+	background:url(../images/none.gif);
+}
+* html .png-box .l {
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-left.png', sizingmethod='scale');
+	background:url(../images/none.gif);
+}
+* html .png-box .r {
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-right.png', sizingmethod='scale');
+	background:url(../images/none.gif);
+}
+.png-box { margin-bottom: 31px; }
+.png-box .content { float: left; }
+.png-box .c { padding: 31px; }
+.png-box .l,
+.png-box .r,
+.png-box .lt,
+.png-box .rt,
+.png-box .t,
+.png-box .lb,
+.png-box .rb,
+.png-box .b {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.png-box .l,
+.png-box .r {
+	height: expression(this.parentNode.parentNode.offsetHeight - 31 + "px");
+	top: 31px;
+}
+.png-box .lb,
+.png-box .rb,
+.png-box .b { top: expression(this.parentNode.parentNode.offsetHeight + "px"); }
+.png-box .t,
+.png-box .b {
+	left: 31px;
+	width: expression(this.parentNode.parentNode.offsetWidth - 62 + "px");
+}
+.png-box .r,
+.png-box .rt,
+.png-box .rb { left: expression(this.parentNode.parentNode.offsetWidth - 31 + "px"); }
+* html .block-holder .block {
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-block-01.png', sizingmethod='crop');
+	background:url(../images/none.gif);
+}
+* html .block-frame .block {
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-block-02.png', sizingmethod='crop');
+	background:url(../images/none.gif);
+}
